@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>290</y>
+      <w>110</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+ATMEGA328P</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>370</x>
+      <y>110</y>
+      <w>420</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>130</y>
+      <w>110</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+24LC1025
+(EEPROM)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>340</y>
+      <w>110</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Middle center
+
+bla
+bla bla</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>170</y>
+      <w>110</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+24LC1025
+(EEPROM)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
