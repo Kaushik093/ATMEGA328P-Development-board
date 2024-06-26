@@ -4,10 +4,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>290</y>
-      <w>110</w>
-      <h>120</h>
+      <x>460</x>
+      <y>260</y>
+      <w>310</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
@@ -17,9 +17,9 @@ ATMEGA328P</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>370</x>
+      <x>300</x>
       <y>110</y>
-      <w>420</w>
+      <w>550</w>
       <h>400</h>
     </coordinates>
     <panel_attributes/>
@@ -28,8 +28,8 @@ ATMEGA328P</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
-      <y>130</y>
+      <x>570</x>
+      <y>370</y>
       <w>110</w>
       <h>120</h>
     </coordinates>
@@ -42,24 +42,24 @@ halign=center
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>520</x>
-      <y>340</y>
+      <x>440</x>
+      <y>370</y>
       <w>110</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Middle center
+DS1337
+(RT Clock)
 
-bla
-bla bla</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>170</y>
+      <x>690</x>
+      <y>370</y>
       <w>110</w>
       <h>120</h>
     </coordinates>
@@ -67,6 +67,84 @@ bla bla</panel_attributes>
 halign=center
 24LC1025
 (EEPROM)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+UART I/O</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>120</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+GPIO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>220</y>
+      <w>60</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+I2C I/O</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>180</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Crystal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>240</y>
+      <w>60</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+ICSP</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>180</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+BatteryPin</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
