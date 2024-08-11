@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>15</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
-      <y>260</y>
-      <w>310</w>
-      <h>50</h>
+      <x>405</x>
+      <y>255</y>
+      <w>465</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-ATMEGA328P</panel_attributes>
+bg=orange
+ATMEGA328P
+(MCU)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>300</x>
-      <y>110</y>
-      <w>550</w>
-      <h>400</h>
+      <x>165</x>
+      <y>60</y>
+      <w>825</w>
+      <h>600</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -28,13 +30,14 @@ ATMEGA328P</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>370</y>
-      <w>110</w>
-      <h>120</h>
+      <x>540</x>
+      <y>435</y>
+      <w>165</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=yellow
 24LC1025
 (EEPROM)</panel_attributes>
     <additional_attributes/>
@@ -42,13 +45,16 @@ halign=center
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>370</y>
-      <w>110</w>
-      <h>120</h>
+      <x>345</x>
+      <y>435</y>
+      <w>165</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=pink
+
+
 DS1337
 (RT Clock)
 
@@ -58,13 +64,14 @@ DS1337
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
-      <y>370</y>
-      <w>110</w>
-      <h>120</h>
+      <x>720</x>
+      <y>435</y>
+      <w>165</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=yellow
 24LC1025
 (EEPROM)</panel_attributes>
     <additional_attributes/>
@@ -72,79 +79,196 @@ halign=center
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>120</y>
-      <w>160</w>
-      <h>50</h>
+      <x>645</x>
+      <y>60</y>
+      <w>240</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=red
 UART I/O</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>120</y>
-      <w>160</w>
-      <h>50</h>
+      <x>390</x>
+      <y>60</y>
+      <w>240</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=red
 GPIO</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>220</y>
-      <w>60</w>
-      <h>130</h>
+      <x>885</x>
+      <y>210</y>
+      <w>90</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=red
 I2C I/O</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>180</y>
-      <w>70</w>
-      <h>50</h>
+      <x>435</x>
+      <y>150</y>
+      <w>105</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-Crystal</panel_attributes>
+Crystal
+oscillator</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
+      <x>180</x>
       <y>240</y>
-      <w>60</w>
-      <h>130</h>
+      <w>90</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
+bg=gray
 ICSP</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>180</y>
-      <w>70</w>
-      <h>50</h>
+      <x>180</x>
+      <y>150</y>
+      <w>105</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
-BatteryPin</panel_attributes>
+bg=green
+Power
+input</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>795</x>
+      <y>360</y>
+      <w>45</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>390</y>
+      <w>225</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>I2C Data and clock</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>405</y>
+      <w>45</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>795</x>
+      <y>390</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>100.0;10.0;100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>405</y>
+      <w>45</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>390</y>
+      <w>255</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>120</y>
+      <w>150</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>D2-D8 pins</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>120</y>
+      <w>120</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>TX&amp;RX</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>465</x>
+      <y>210</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>165</y>
+      <w>180</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Vcc</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0;100.0;60.0</additional_attributes>
   </element>
 </diagram>
